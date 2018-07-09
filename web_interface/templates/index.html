@@ -3,11 +3,12 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
+    <link rel="icon" href="../static/images/favicon.png" type="image/gif/png" sizes="16x16">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>DataTables | Gentelella</title>
+    <title>BiteFul</title>
 
     <!-- Bootstrap -->
     <link href="../static/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,9 +27,11 @@
 
     <!-- Custom Theme Style -->
     <link href="../static/css/custom.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/fakeLoader.css">
   </head>
 
   <body class="nav-md">
+      <div id="fakeLoader"></div>
     <div class="container body">
       <div class="main_container">
         
@@ -40,7 +43,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>BiteFul <small>caption</small></h3>
+                <h3>BiteFul <small style="font-family:Georgia;">a smart demand forecaster</small></h3>
               </div>
 
               <div class="title_right">
@@ -220,9 +223,13 @@
     <script src="../static/vendors/jszip/dist/jszip.min.js"></script>
     <script src="../static/vendors/pdfmake/build/pdfmake.min.js"></script>
     <script src="../static/vendors/pdfmake/build/vfs_fonts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../static/js/fakeLoader.min.js"></script>
 
     <!-- Custom Theme Scripts -->
     <script src="../static/js/custom.min.js"></script>
-
+    <script type="text/javascript">
+      $("#fakeloader").fakeLoader();
+      </script>
   </body>
 </html>
