@@ -1,5 +1,5 @@
 prepare dataset                     [x]
-preprocess data                     [ ]
+preprocess data                     [x]
 find optimal algorithm              [ ]
 predict                             [ ]
 add dimesions                       [ ]
