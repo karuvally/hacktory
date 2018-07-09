@@ -1,4 +1,4 @@
-prepare dataset         [ ]
+prepare dataset         [x]
 preprocess data         [ ]
 find optimal algorithm  [ ]
 predict                 [ ]
