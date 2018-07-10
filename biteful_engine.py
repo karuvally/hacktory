@@ -37,7 +37,9 @@ def main():
     #query_data = user_input()
     query_data = [2013, 1, 1, 25, 103665]
 
-    prediction = model.predict(query_data)
+    prediction = model.predict([query_data])
+    
+    print(prediction)
 
 
 # run the main function
